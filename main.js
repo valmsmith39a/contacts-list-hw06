@@ -1,3 +1,12 @@
+/*
+NOTE TO GRADER: 
+
+To sort, click titles of each field (e.g. name, email...)
+No reset function for sort, can only refresh to go back to original state
+
+To edit, click on the actual field and it will allow you to edit in the field box. 
+After editing, click on the save button on the row that you are making the changes. 
+*/
 $(document).ready(init);
 
 var arrayOfRowContainersObjectsG=[];
