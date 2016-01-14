@@ -15,7 +15,8 @@ body {
 .output {
 	position:relative;
 	text-align: left;
-	margin-left: 0px;
+	margin-left: 3px;
+	background-color: #cce5ff;
 }
 
 .name-output {
