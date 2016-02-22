@@ -32,8 +32,6 @@ function saveEditsButton(){
 	// Update array of row containers 
 	// Save to local storage
 	var indexOfElementEdited = $(this).closest('.row-container').index();
-	debugger;
-	console.log('index:', indexOfElementEdited);
   var contact = $(this).closest('.row-container'); 
 	var name = contact.find('.name-col').text();
 	var phoneNumber = contact.find('.phone-number-col').text();
@@ -109,6 +107,7 @@ function addContactButton(){
 
 function deleteContactButton(){
 	var indexOfElementToRemove = $(this).closest('.row-container').index();
+	
 	arrayOfContactsObjectsG.splice(indexOfElementToRemove,1);
 	arrayOfRowContainersObjectsG.splice(indexOfElementToRemove,1);
 	saveToLocalStorage(arrayOfContactsObjectsG);
